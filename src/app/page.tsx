@@ -1,7 +1,13 @@
+import { Main } from "next/document";
+import  Home  from "./_containers/home"
+import "./globals.css";
+import About from "./_containers/about";
 export default function Page() {
   return (
-    <div>
-      <h1>Hello, world!</h1>
-    </div>
-  );
+<main>
+  <Home />
+  <About />
+</main>
+
+  )
 }
